@@ -1,7 +1,6 @@
 # YOLOv5 NCNN Implementation
 
-This repo provides C++ implementation of [YOLOv5 model](https://github.com/ultralytics/yolov5) using
-Tencent's NCNN framework.
+This repo provides C++ implementation of [YOLOv5 model](https://github.com/ultralytics/yolov5) and other models using Tencent's NCNN framework. 
 
 # Notes
 
@@ -14,4 +13,6 @@ may slightly reduce the accuracy.
 * [YOLOv5 by Ultralytics](https://github.com/ultralytics/yolov5) 
 * [NCNN by Tencent](https://github.com/tencent/ncnn)
 
-仅供学习。
+# Assets files
+* 請將網路模型 `yolact-opt.bin` 和 `yolact-opt.param` 丟進 `app/src/main/assets` 之中
+* 網路模型下載位置: [Google Drive](https://drive.google.com/drive/folders/14gl780DDihYTO8gttjVE3fBP-t5tZXwJ?usp=sharing)
